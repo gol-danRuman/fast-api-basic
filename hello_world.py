@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-
+from router import web_chat_router
 app = FastAPI()
-
+app.include_router(web_chat_router.router)
 @app.get("/")
 async def root():
     return {"message" : "Hello world"}
