@@ -13,7 +13,7 @@
     > pip install "uvicorn[standard]"
 
 ## Run Application:
-    > uvicorn hello_world:app --reload
+    > uvicorn main:app --reload
 
 
 
