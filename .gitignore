@@ -1,3 +1,5 @@
 fast_api
 .idea
 __pycache__/
+dev.env
+prod.env

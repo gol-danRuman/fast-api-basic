@@ -14,6 +14,9 @@
 
 ## Run Application:
     > uvicorn main:app --reload
+    > python main.py --env prod
+    > python main.py --env dev
+
 
 
 
