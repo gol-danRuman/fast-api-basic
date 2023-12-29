@@ -70,7 +70,7 @@ def main(args):
     async def read_item(item_id):
         return {"item_id": item_id}
 
-    uvicorn.run(app)
+    uvicorn.run(app, port=8000, host='0.0.0.0')
 
 
 def parse_args():
